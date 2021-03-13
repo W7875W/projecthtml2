@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8"/>
+	<link rel='icon' href='project.png'/>
+	<style>
+	input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: grey;
+  color: white;
+  border-radius:4px;
+}
+	textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  
+}
+body{
+font-family:"sans-serif", verdana;
+color:black;
+}
+#grad1 {
+  height: 100%;
+  background-color: ; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right bottom, );
+}
+
+	</style>
+</head>
+<body id="grad1">
+
+
+
+<div style='position:relative; background-color:; padding:10px 10px; border-radius:10px; width:50%; left:25%;'>
+<font style='font-size:64px;'><a href='index.php'><font class='logo'>Testing</font><font class='logo' color='#00ace6'>Hi</font></a></font><br><br>
+
+
+<form action="post.php" method='post'>
+  <label for="fname">Фамилия Имя</label><br>
+  <input required type="text"   name="nameq" value=""><br>
+  <label for="lname">Номер телефона</label><br>
+  <input required type="text"  name="namew" value=""><br>
+  <label for="lname">Город</label><br>
+  <input required type="text"  name="namee" value=""><br><br>
+  
+
+  	<label for="fname">Способ доставки</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="genderq" value="male">
+    <label for="male">
+Новая почта</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="genderq" value="female">
+    <label for="female">
+Укрпочта</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="genderq" value="female">
+    <label for="female">
+Курьером</label><br>
+    <input required  type="radio" style="width:20px; height:20px;"  name="genderq" value="other">
+    <label for="other">Самовывоз (г. Киев)</label><br><br>
+
+  
+
+  	<label for="fname">Форма оплаты</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="genderw" value="male">
+    <label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="genderw" value="female">
+    <label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="genderw" value="other">
+    <label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+  
+  <label for="lname">Отделение № или индекс<br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+  <input required type="text"  name="namer" value=""><br><br>
+  
+
+  	<label for="fname">Как с Вами связаться?</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="gendere" value="male">
+    <label for="male">Позвонить</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="gendere" value="female">
+    <label for="female">Telegram</label><br>
+	<input required type="radio" style="width:20px; height:20px;"  name="gendere" value="female">
+    <label for="female">Viber</label><br>
+    <input required type="radio" style="width:20px; height:20px;"  name="gendere" value="other">
+    <label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+  
+  <label for="fname">Комментарий (количество = шт.)</label><br>
+  <textarea required name="message" style="width:100%; height:100px;">
+
+  </textarea><br>
+  
+  <br>
+  <input style='background-color:grey; padding:8px 8px; color:white; border-radius:4px; width:12.5%;' type="submit" value="Заказать">
+</form> 
+
+
+
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8"/>
+	<link rel='icon' href='project.png'/>
+</head>
+<body>
+
+
+
+
+
+<form action="post.php" method='post'>
+  <label for="fname">First name:</label><br>
+  <input required type="text"   name="nameq" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input required type="text"  name="namew" value="Doe"><br>
+  <label for="lname">Last name:</label><br>
+  <input required type="text"  name="namee" value="Doe"><br><br>
+  
+
+  	<label for="fname">First name:</label><br>
+    <input required type="radio" name="genderq" value="male">
+    <label for="male">Male</label><br>
+    <input required type="radio"  name="genderq" value="female">
+    <label for="female">Female</label><br>
+    <input required  type="radio"  name="genderq" value="other">
+    <label for="other">Other</label><br><br>
+
+  
+
+  	<label for="fname">First name:</label><br>
+    <input required type="radio" name="genderw" value="male">
+    <label for="male">Male</label><br>
+    <input required type="radio" name="genderw" value="female">
+    <label for="female">Female</label><br>
+    <input required type="radio"  name="genderw" value="other">
+    <label for="other">Other</label><br><br>
+
+  
+  <label for="lname">Last name:</label><br>
+  <input required type="text"  name="namer" value="Doe"><br><br>
+  
+
+  	<label for="fname">First name:</label><br>
+    <input required type="radio"  name="gendere" value="male">
+    <label for="male">Male</label><br>
+    <input required type="radio"  name="gendere" value="female">
+    <label for="female">Female</label><br>
+    <input required type="radio"  name="gendere" value="other">
+    <label for="other">Other</label><br><br>
+
+  
+  <label for="fname">First name:</label><br>
+  <textarea required name="message" style="width:200px; height:60px;">
+  The cat was playing in the garden.
+  </textarea><br>
+  
+  <br>
+  <input type="submit" value="Submit">
+</form> 
+
+
+
+
+
+
+
+
+
+
+</body>
+</html> -->

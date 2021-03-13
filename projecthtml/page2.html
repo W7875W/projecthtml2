@@ -1,0 +1,2703 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>TestingHi</title>
+	<meta charset="UTF-8"/>
+	<meta name='description' content='Тарас Шевченко - видатний український поет, прозаїк, драматург, художник, політичний і громадський діяч. 
+	Він був людиною універсальних обдарувань та інтересів. Все його життя і творчість були присвячені українському народу. 
+	Поет мріяв про ті часи, коли його країна буде незалежною суверенною державою, коли в Україні шануватимуться мова, культура та історія народу, а люди будуть щасливими.' />
+	<link rel='icon' href='project.png'/>
+	<link href='style.css' rel='stylesheet' type='text/css' />
+	<script>
+	// Get the modal
+	var modal = document.getElementById('id01');
+
+	// When the user clicks anywhere outside of the modal, close it
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+	</script>
+	<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "100%";
+	}
+
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	}
+	</script>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<a href='index.html'><font class='logo'>Testing</font><font class='logo' color='#00ace6'>Hi</font></a>
+  <a href="page1.html">БОКСЫ</a>
+  <a href="page2.html">ТОВАРЫ</a>
+  <a href="page3.html">О НАС</a>
+  <a href="page4.html">ДОСТАВКА</a>
+  <a href="page5.html">ОПЛАТА</a>
+  <a href="page6.html">КОНТАКТЫ</a>
+
+</div>
+
+
+<div class='example17'>
+
+		<div class='example4'>
+			<a href='index.html'><font color='#1a1a1a'>
+			Testing<font color='#00ace6'>Hi</font>
+			</font></a>
+		</div>
+		<div class='example5'>
+			<a href="page1.html">БОКСЫ</a>
+		</div> 
+		<div class='example5'>
+			<a href="page2.html">ТОВАРЫ</a>
+		</div> 
+		<div class='example5'>
+			<a href="page3.html">О НАС</a>
+		</div>
+		<div class='example5'>
+			<a href="page4.html">ДОСТАВКА</a>
+		</div>
+		<div class='example5'>
+			<a href="page5.html">ОПЛАТА</a>
+		</div>
+		<div class='example5'>
+			<a href="page6.html">КОНТАКТЫ</a>
+		</div>
+		<div class='example6'>
+			<span style="cursor:pointer" onclick="openNav()">&#8803;</span>
+		</div>
+
+</div>
+
+<div class="bg-image"></div>
+
+<div class="bg-text">
+	<font size='24px' face='sans-serif ' style='font-family:Verdana;'>
+<strong>Популярные товары</strong>
+	</font>
+</div>
+
+<div style='position:relative; left:0; top:0px;' class='flex-container6'>
+	<div style='position:relative; width:75%;' >
+		<font align="center" color='black' face='sans-serif ' style='font-family:Verdana;' >
+		<br>
+		Тут собраны популярные сладости, напитки, сувениры и игры.
+Товары можно заказать как отдельно так и в дополнении к боксу
+		<br>
+		<br>
+		</font>	
+	</div>	
+</div>
+
+
+<div style='position:relative; left:0; top:0px;' class='flex-container'>
+	<div style='  justify-content: center; flex-wrap: wrap;  display: flex; width:1100px;'>
+		<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+		<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+		<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+		<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+		<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+		<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+			<div class="example3">
+			<div style='position:relative; top:0px;'><a href=''><img src='3na301.jpg' alt='' width='100%' ></a>
+			<font class='example9'><a href=''><br><br><strong>Sunny бокс</strong><br><small>254 грн.</small></a></font><br><br>
+			<button onclick="document.getElementById('id02').style.display='block'" class="example1">Заказать</button>
+			<div id="id02" class="modal2">
+			<form action="post.php" class="modal-content2 animate2" method="post">
+			<div class="imgcontainer2"><span onclick="document.getElementById('id02').style.display='none'" class="close2" title="Close Modal">&times;</span></div>
+				<div class="container2">
+				
+				<div style='position:relative; width:100%; padding:0px 75px; color:black; text-align:left;'>
+				<font style='font-size:40px;'>Ваш заказ <3</font><br><br>
+				<form action="post.php" method='post'>
+				  <label for="fname"><strong>Фамилия Имя</strong></label><br>
+				  <input class='qwerty1' required type="text"   name="nameq" value=""><br>
+				  <label for="lname"><strong>Номер телефона</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namew" value=""><br>
+				  <label for="lname"><strong>Город</strong></label><br>
+				  <input class='qwerty1' required type="text"  name="namee" value=""><br><br>
+
+					<label for="fname"><strong>Способ доставки</strong></label><br>
+					<input class='qwerty2' required type="radio"  name="genderq" value="male">
+					<label for="male">
+				Новая почта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Укрпочта</label><br>
+					<input class='qwerty2' required type="radio"   name="genderq" value="female">
+					<label for="female">
+				Курьером</label><br>
+					<input class='qwerty2' required  type="radio"   name="genderq" value="other">
+					<label for="other">Самовывоз (г. Киев)</label><br><br>
+
+					<label for="fname"><strong>Форма оплаты</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="male">
+					<label for="male">Частичная оплата 100 грн + Наложенный платёж</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="female">
+					<label for="female">Полная оплата на карту (*дешевле доставка)</label><br>
+					<input class='qwerty2' required type="radio"   name="genderw" value="other">
+					<label for="other">Наличными (*САМОВЫВОЗ г. Киев)</label><br><br>
+
+				  <label for="lname"><strong>Отделение № или индекс</strong><br>Если выбрали доставку Новой почтой / Укрпочтой</label><br>
+				  <input class='qwerty1' required type="text"  name="namer" value=""><br><br>
+
+					<label for="fname"><strong>Как с Вами связаться?</strong></label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="male">
+					<label for="male">Позвонить</label><br>
+					<input class='qwerty2' required type="radio"   name="gendere" value="female">
+					<label for="female">Telegram</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="female">
+					<label for="female">Viber</label><br>
+					<input class='qwerty2' required type="radio"  name="gendere" value="other">
+					<label for="other">Instagram (укажите ник в комментариях к заказу)</label><br><br>
+
+				  <label for="fname"><strong>Комментарий (*количество)</strong></label><br>
+				  <textarea required name="message" style="width:100%; height:100px;"></textarea><br><br>
+				  <input class='qwerty' type="submit" value="Заказать">
+				</form> 
+				</div>
+				
+		</div>
+	</form>
+	<br><br>
+</div>
+
+
+
+
+
+
+			<button onclick="document.getElementById('id01').style.display='block'" class="example2">Подробнее</button>
+<div id="id01" class="modal">
+	<form class="modal-content animate" method="post">
+		<div class="imgcontainer">
+		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+		</div>
+		<div class="container">
+			<div style='position:relative; left:0; top:0px;' class='flex-container4'>
+			<div class="example8" >
+				<div style='position:relative; top:0px;'><a href=''>
+				<img src='3na301.jpg' alt='' width='100%' ></a>
+				</div>
+			</div>		
+			<div class="example3" >
+				<div style='position:relative; top:0px;'>
+				<font color='black' size='3' ><h3 align='left'>
+				<p>Sunny бокс</p>
+				<p>465грн.</p>
+				Состав:<br>
+				<li>Шоколад Toblerone молочный;</li>
+				<li>Мармелад Chupa Chups;</li>
+				<li>Kinder Cards - 2 шт.;</li>
+				<li>Жвачки Juicy Fruit;</li>
+				<li>Напиток Chupa Chups апельсин;</li>
+				<li>Чашечка "Том и Джерри";</li>
+				<li>Носочки "Успокойся";</li>
+				<li>Мини-открытка "Ти моє диво".</li></h3>
+				</font>
+				</div>
+				</div>
+				</div>
+		</div>
+	</form>
+</div>
+		</div>
+	</div>
+		
+	</div>
+</div>
+
+<br>
+<br>
+<br>
+<div style='position:relative; left:0; top:0px;' class='flex-container6'>
+	<div style='position:relative; width:60%;' >
+		<font align="center" color='grey' face='sans-serif ' style='font-family:Verdana;' >
+		<br>
+		<small>coming soon...</small>
+		<br>
+		<br>
+		</font>	
+	</div>	
+</div>
+<br>
+
+
+
+<div style='position:relative; left:0; top:0px;' class='flex-container1'>
+	<div class='example10' >
+	<a href=''><br><img src='telegram.png' width='50%'><br></a>
+	</div>	
+		<div class='example10' >
+		<a href=''><br><img src='instagram.png' width='50%'><br></a>
+	</div>	
+		<div class='example10'>
+		<a href=''><br><img src='facebook.png' width='50%'><br></a>
+	</div>	
+</div>
+
+<div style='position:relative; left:0; top:0px;' class='flex-container2'>
+	<div style='position:relative; width:175px;' >
+	<a href="page3.html"><font class='example11' >
+<br><br>О нас
+		</font></a>
+	</div>	
+		<div style='position:relative; width:175px;' >
+		<a href="page4.html"><font class='example11' >
+<br><br>Доставка
+		</font></a>
+	</div>	
+		<div style='position:relative; width:175px;' >
+		<a href="page5.html"><font class='example11' >
+<br><br>Оплата
+		</font></a>
+	</div>	
+		<div style='position:relative; width:175px;' >
+		<a href="page6.html"><font class='example11' >
+<br><br>Контакты
+		</font></a>
+	</div>	
+		<div style='position:relative; width:175px;' >
+		<a href="page7.html"><font class='example11' >
+<br><br>Отзывы
+		</font></a>
+	</div>	
+		<div style='position:relative; width:175px;' >
+		<a href="page8.html"><font class='example11' >
+<br><br>Обмен/возврат
+		</font></a>
+	</div>	
+			<div style='position:relative; width:175px;' >
+		<a href="page9.html"><font class='example11' >
+<br><br>Публичная оферта
+		</font></a>
+	</div>	
+
+</div>
+
+<div style='position:relative; left:0; top:0px;' class='flex-container1'>
+	<div style='position:relative; width:50%;' >
+		<font  color='grey' align="center" color='black' face='sans-serif ' style='font-family:Verdana;' >
+			<br><br>© Все права защищены. 2021<br><br>
+		</font>
+	</div>	
+</div>
+
+</body>
+</html>
